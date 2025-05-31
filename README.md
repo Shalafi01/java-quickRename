@@ -14,29 +14,29 @@ Quick Rename is a simple Java Swing application designed to help you efficiently
 * **User-Friendly Interface**: A simple tabbed interface built with Java Swing for different renaming operations.
 
 ## Usage
-The application is divided into three main tabs: "Sostituire" (Replace), "Aggiungere" (Add), and "Altro" (Other).
+The application is divided into three main tabs: "Replace," "Add," and "Other."
 
 ### General Steps:
-1.  **Select Directory**: On any tab, click the "**Sfoglia...**" (Browse...) button to choose the folder containing the files you want to rename. The file names will appear in the text area.
-2.  **Open Directory**: Click the "**Apri**" (Open) button to quickly open the selected directory in your operating system's file explorer.
-3.  **Apply Changes**: After configuring your renaming options, click the relevant "Applica" or "Aggiungere" or "Numerazione" / "Tronca" button to perform the renaming.
+1.  **Select Directory**: On any tab, click the "**Browse...**" button to choose the folder containing the files you want to rename. The file names will appear in the text area.
+2.  **Open Directory**: Click the "**Open**" button to quickly open the selected directory in your operating system's file explorer.
+3.  **Apply Changes**: After configuring your renaming options, click the relevant "Apply" or "Add" or "Numbering" / "Truncate" button to perform the renaming.
 
-### Tab: Sostituire (Replace)
-* **Stringa da ricercare**: Enter the text you want to find in the file names.
-* **Stringa da sostituire**: Enter the text that will replace the found string.
-* Click "**Applica**" to apply the changes.
+### Tab: Replace
+* **Search String**: Enter the text you want to find in the file names.
+* **Replace String**: Enter the text that will replace the found string.
+* Click "**Apply**" to apply the changes.
 * **Info**: Provides important notes about using special characters in the search string.
 
-### Tab: Aggiungere (Add)
-* **Stringa da aggiungere**: Enter the text you wish to add.
-* Click "**Aggiungere all'inizio**" (Add to beginning) to prepend the text to file names.
-* Click "**Aggiungere alla fine**" (Add to end) to append the text to file names.
+### Tab: Add
+* **Text to Add**: Enter the text you wish to add.
+* Click "**Add to beginning**" to prepend the text to file names.
+* Click "**Add to end**" to append the text to file names.
 * **Info**: Explains assumptions made about file extensions when appending text.
 
-### Tab: Altro (Other)
-* **Numerazione**: Click "**Numerazione**" (Numbering) to add sequential numbers to file names. You'll be prompted to enter a starting number. Numbers will be padded with leading zeros (e.g., `001`, `010`).
-* **Aggiungi numerazione**: (Likely similar to the above, might be a duplicate or slightly different numbering option).
-* **Tronca**:
-    * Enter a **start index** in `inizioField`.
-    * Enter an **end index** in `fineField`. Use `L` for the end of the string.
-    * Click "**Tronca**" (Truncate) to trim file names based on these indices.
+### Tab: Other
+* **Numbering**: Click "**Numbering**" to add sequential numbers to file names. You'll be prompted to enter a starting number. Numbers will be padded with leading zeros (e.g., `001`, `010`).
+* **Add Numbering**: (Likely similar to the above, might be a duplicate or slightly different numbering option).
+* **Truncate**:
+    * Enter a **start index** in `startField`.
+    * Enter an **end index** in `endField`. Use `L` for the end of the string.
+    * Click "**Truncate**" to trim file names based on these indices.
