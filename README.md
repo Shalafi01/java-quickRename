@@ -35,6 +35,14 @@ The application is divided into three main tabs: "Replace," "Add," and "Other."
 
 ### Tab: Other
 * **Numbering**: Click "**Numbering**" to add sequential numbers to file names. You'll be prompted to enter a starting number. Numbers will be padded with leading zeros (e.g., `001`, `010`).
+
+## Screenshots
+<img src="img/screenshot_1.png" alt="Contacts App Screenshot" style="width: 600px;"/>
+
+<img src="img/screenshot_2.png" alt="Contacts App Screenshot" style="width: 600px;"/>
+
+<img src="img/screenshot_3.png" alt="Contacts App Screenshot" style="width: 600px;"/>
+
 * **Add Numbering**: (Likely similar to the above, might be a duplicate or slightly different numbering option).
 * **Truncate**:
     * Enter a **start index** in `startField`.
