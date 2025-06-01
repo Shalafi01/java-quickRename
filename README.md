@@ -1,6 +1,15 @@
 # Quick Rename
 Quick Rename is a simple Java Swing application designed to help you efficiently rename multiple files within a selected directory. It offers various renaming options, including searching and replacing strings, adding prefixes or suffixes, truncating names, and applying sequential numbering.
 
+- [Quick Rename](#quick-rename)
+  - [Features](#features)
+  - [Usage](#usage)
+    - [General Steps](#general-steps)
+    - [Tab: Replace](#tab-replace)
+    - [Tab: Add](#tab-add)
+    - [Tab: Other](#tab-other)
+  - [Screenshots](#screenshots)
+
 ## Features
 * **Batch Renaming**: Rename multiple files in a chosen directory at once.
 * **Search and Replace**: Find specific strings in file names and replace them with new ones.
